@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    font-family: Arial;
+    box-sizing: border-box;
+}
+
+header{
+    width: 980px;
+    height: 140px;
+    background: violet;
+    display: flex;
+}
+.Sidebar{
+    width: 270px;
+    height: 450px;
+    background: blueviolet;
+    display: flex;
+    margin-top: 15px;
+}
+.Content{
+    width: 690px;
+    height: 450px;
+    background: purple;
+    display: flex;
+    margin-top: -450px;
+    margin-left: 290px;
+    margin-bottom: 15px;
+}
+.footer{
+    width: 980px;
+    height: 70px;
+    background: rebeccapurple;
+    display: flex;
+    margin-top: 15px;
+}
